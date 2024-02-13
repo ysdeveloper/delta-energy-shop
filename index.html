@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          container: {
+            center: true,
+            screens: {
+              default: "1178px",
+            },
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              sans: "var(--font-sans)",
+            },
+            fontSize: {
+              sm: ["14px", "20px"],
+              base: ["16px", "24px"],
+              lg: ["18px", "27px"],
+              xl: ["20px", "24px"],
+              "2xl": ["40px", "42px"],
+              "3xl": ["48px", "52px"],
+              "4xl": ["56px", "60px"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="bg-[#F2F4F5] py-3">
+        <div class="container text-right">
+          <span class="inline-flex gap-3 items-center text-sm"
+            ><svg
+              width="15"
+              height="16"
+              viewBox="0 0 15 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M13.7071 0.75V7.25C13.7071 8.63071 12.5878 9.75 11.2071 9.75H1.91421L5.56066 6.10355C5.75592 5.90829 5.75592 5.59171 5.56066 5.39645C5.3654 5.20118 5.04882 5.20118 4.85355 5.39645L0.353553 9.89645L0 10.25L0.353553 10.6036L4.85355 15.1036C5.04882 15.2988 5.3654 15.2988 5.56066 15.1036C5.75592 14.9083 5.75592 14.5917 5.56066 14.3964L1.91421 10.75H11.2071C13.1401 10.75 14.7071 9.183 14.7071 7.25V0.75H13.7071Z"
+                fill="#4D4D4D"
+              />
+            </svg>
+            Terug naar mijn Delta
+          </span>
+        </div>
+      </nav>
+      <div>
+        <div class="container">
+          <ul class="*:mb-5 text-[#6900af]">
+            <li><a href="#">Home</a></li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section
+      class="bg-gradient-to-r from-[#19B6EB] via-[#0D8ACA] to-[#0671B8] pt-[65px] text-white"
+    >
+      <div class="container">
+        <div class="flex">
+          <div class="w-1/2">
+            <h1 class="mb-5 text-4xl font-bold">DELTA Energie Shop</h1>
+            <p class="mb-6 max-w-[80%]">
+              Dolor varius bibendum hac felis tempor sit sit. Laoreet at quam
+              nisl non enim porttitor ut. Velit ante tempor porta praesent id
+              dictumst magna lorem gravida. Non neque id dui nibh aliquet netus
+              curabitur facilisi. Turpis volutpat sapien in faucibus.
+            </p>
+            <button
+              class="py-4 w-[340px] text-center bg-[#F39900] rounded-md font-bold"
+            >
+              Scoor de mooiste deals
+            </button>
+          </div>
+          <div>
+            <img src="./assets/banner_img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-[120px]">
+      <div class="container">
+        <div class="text-center mb-[60px]">
+          <h2 class="text-3xl font-bold mb-[28px] text-[#008ECF]">
+            Onze top keuzes
+          </h2>
+          <p class="max-w-[768px] mx-auto">
+            At pharetra integer lacus dolor faucibus tempor vulputate urna
+            purus. Vulputate odio consequat tempor dignissim consectetur. Cursus
+            senectus sed lectus dolor.
+          </p>
+        </div>
+        <div class="flex gap-x-[48px]">
+          <div
+            class="shadow-[0_5px_20px_rgba(0,0,0,0.2)] rounded-[12px] px-[30px] text-center py-[20px]"
+          >
+            <div class="relative mb-[12px]">
+              <img src="./assets/iphone_15.png" alt="" />
+              <div
+                class="absolute top-0 right-0 size-[90px] bg-black text-white rounded-full flex items-center justify-center text-[28px] font-bold bg-gradient-to-r from-[#F39900] to-[#E53171]"
+              >
+                Actie
+              </div>
+            </div>
+
+            <h3 class="text-[#212529] font-semibold mb-[16px]">
+              Iphone 15 Pro
+            </h3>
+            <p class="text-[#008ECF] mb-[24px]">Van 1150,- voor 900,-</p>
+            <button
+              class="bg-[#F39900] px-[32px] py-[16px] text-white text-[18px] font-medium rounded-[8px]"
+            >
+              info & bestellen
+            </button>
+          </div>
+          <div
+            class="shadow-[0_5px_20px_rgba(0,0,0,0.2)] rounded-[12px] px-[30px] text-center py-[20px]"
+          >
+            <div class="relative mb-[12px]">
+              <img src="./assets/iphone_15.png" alt="" />
+              <div
+                class="absolute top-0 right-0 size-[90px] bg-black text-white rounded-full flex items-center justify-center text-[28px] font-bold bg-gradient-to-r from-[#F39900] to-[#E53171]"
+              >
+                Actie
+              </div>
+            </div>
+
+            <h3 class="text-[#212529] font-semibold mb-[16px]">
+              Iphone 15 Pro
+            </h3>
+            <p class="text-[#008ECF] mb-[24px]">Van 1150,- voor 900,-</p>
+            <button
+              class="bg-[#F39900] px-[32px] py-[16px] text-white text-[18px] font-medium rounded-[8px]"
+            >
+              info & bestellen
+            </button>
+          </div>
+          <div
+            class="shadow-[0_5px_20px_rgba(0,0,0,0.2)] rounded-[12px] px-[30px] text-center py-[20px]"
+          >
+            <div class="relative mb-[12px]">
+              <img src="./assets/iphone_15.png" alt="" />
+              <div
+                class="absolute top-0 right-0 size-[90px] bg-black text-white rounded-full flex items-center justify-center text-[28px] font-bold bg-gradient-to-r from-[#F39900] to-[#E53171]"
+              >
+                Actie
+              </div>
+            </div>
+
+            <h3 class="text-[#212529] font-semibold mb-[16px]">
+              Iphone 15 Pro
+            </h3>
+            <p class="text-[#008ECF] mb-[24px]">Van 1150,- voor 900,-</p>
+            <button
+              class="bg-[#F39900] px-[32px] py-[16px] text-white text-[18px] font-medium rounded-[8px]"
+            >
+              info & bestellen
+            </button>
+          </div>
+          <div
+            class="shadow-[0_5px_20px_rgba(0,0,0,0.2)] rounded-[12px] px-[30px] text-center py-[20px]"
+          >
+            <div class="relative mb-[12px]">
+              <img src="./assets/iphone_15.png" alt="" />
+              <div
+                class="absolute top-0 right-0 size-[90px] bg-black text-white rounded-full flex items-center justify-center text-[28px] font-bold bg-gradient-to-r from-[#F39900] to-[#E53171]"
+              >
+                Actie
+              </div>
+            </div>
+
+            <h3 class="text-[#212529] font-semibold mb-[16px]">
+              Iphone 15 Pro
+            </h3>
+            <p class="text-[#008ECF] mb-[24px]">Van 1150,- voor 900,-</p>
+            <button
+              class="bg-[#F39900] px-[32px] py-[16px] text-white text-[18px] font-medium rounded-[8px]"
+            >
+              info & bestellen
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-[80px] bg-[#F2F4F5]">
+      <div class="container">
+        <h2 class="text-3xl font-bold mb-[88px] text-center text-[#008ECF]">
+          Onze top keuzes
+        </h2>
+
+        <div
+          class="flex gap-x-[48px] *:w-1/4 *:shadow-[0_5px_20px_rgba(0,0,0,0.2)] *:rounded-[12px] *:overflow-hidden"
+        >
+          <div>
+            <div
+              class="h-[110px]"
+              style="background: url(./assets/bg.jpg)"
+            ></div>
+            <div
+              class="w-full py-[20px] text-xl font-semibold text-center bg-white"
+            >
+              Internet
+            </div>
+          </div>
+          <div>
+            <div
+              class="h-[110px]"
+              style="background: url(./assets/bg.jpg)"
+            ></div>
+            <div
+              class="w-full py-[20px] text-xl font-semibold text-center bg-white"
+            >
+              Internet
+            </div>
+          </div>
+          <div>
+            <div
+              class="h-[110px]"
+              style="background: url(./assets/bg.jpg)"
+            ></div>
+            <div
+              class="w-full py-[20px] text-xl font-semibold text-center bg-white"
+            >
+              Internet
+            </div>
+          </div>
+          <div>
+            <div
+              class="h-[110px]"
+              style="background: url(./assets/bg.jpg)"
+            ></div>
+            <div
+              class="w-full py-[20px] text-xl font-semibold text-center bg-white"
+            >
+              Internet
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
